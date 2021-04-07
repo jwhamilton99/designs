@@ -27,13 +27,11 @@ function addDesign(obj, num) {
 	a.href = image;
 	a.appendChild(designContainer);
 	container.appendChild(a);
-	
-	
 }
 
 function getJSON() {
 	var r = new XMLHttpRequest();
-	r.open("GET","/data.json",true);
+	r.open("GET","/designs/data.json",true);
 	r.onreadystatechange = function() {
 		if(this.readyState == 4 && this.status == 200) {
 			var res = JSON.parse(this.response);
