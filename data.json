@@ -1,0 +1,37 @@
+{
+	"1": {
+		"title":"Femto",
+		"description":"I wanted Femto's icon to be a simple, minimalistic icon that would look good on any home screen, and chose a blue-green accent because that's my favorite color.<br><br>A capital \"F\" in Courier Regular became the insignia because Menlo is the app's default font, but a capital \"F\" in Menlo doesn't look good as an icon and Courier was the best alternative I found. The Gray and Pride icons haven't made it into the app yet, but I wanted some variation on the original design.",
+		"image":"images/femto-alticons.png"
+	},
+	"2": {
+		"title":"Dot",
+		"description":"Dot's icon came about by playing on the idea of a music note as the icon for a music app. I wanted something a little different, so I made this shape that resembles a music note (and an Earpod in a way). The background gradient came from the original Apple Music logo's colors.<br><br>I made a few alternate designs, my favorite of which are Beta Three (red, to match the new Apple Music icon introduced in iOS 14 beta 3), Cast (orange, to match Overcast's colors), and G3 (based on a nice bit of Mac geekery).",
+		"image":"images/dot-alticons.png"
+	},
+	"3": {
+		"title":"Affirmations",
+		"description":"Affirmations originally started as just a wrapper for a home screen widget, so I designed an icon based on that (similar to how David Smith's Widgetsmith portrays this), and added a heart icon from SF Symbols in the middle. The red on blue is the orignal icon, as it has enough contrast to differentiate it from the background, and it makes the heart pop out.<br><br>I added a myriad of alternate icons, over half of which are pride flags. As this is a self-care app, I wanted my LGBTQ+ users (such as myself) to be able to express themselves and see themselves represented when they get a nice reminder.",
+		"image":"images/affirmations-alticons.png"
+	},
+	"4": {
+		"title":"Site Logo",
+		"description": "At one point, I designed this nice little thing to have as my site's favicon. Then I decided my base site's files would have no images. (This doesn't count, as it's a separate git repository).",
+		"image":"images/jwhamilton-co-favicon.png"
+	},
+	"5": {
+		"title":"Apollo Neumorphic",
+		"description": "Yes, I hopped on the short-lived Neumorphism train. Lots of people make alternate Apollo icons on the app's subreddit, so I figured I'd have a go at it. It didn't make it into the app, but I got a \"good work\" from Christian.",
+		"image":"images/apollo-icon-neumorphic-promo.png"
+	},
+	"6": {
+		"title":"Ricky Delivery",
+		"description":"On <a class=\"link\" href=\"https://www.relay.fm/connected/311\">episode 311</a> of Connected, I made this dumb picture in the Relay FM members' Discord, and they liked it so much it became that episode's show art. It is one of my proudest moments.",
+		"image":"images/ricky-delivery.png"
+	},
+	"7": {
+		"title":"SongSync Logo",
+		"description":"My first major iOS project was SongSync, which was my attempt at basically making Spotify Connect for Apple Music. The project failed, but the logo is still nice. Maybe I'll revisit it one day.",
+		"image":"images/songsync-logo.png"
+	}
+}
