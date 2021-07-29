@@ -19,19 +19,20 @@ function addDesign(obj, num) {
 	descE.className = "designDescription";
 	descE.innerHTML = desc;
 	
-		
-	designContainer.appendChild(preview);
-	designContainer.appendChild(titleE);
-	designContainer.appendChild(descE);
 	var a = document.createElement("a");
 	a.href = image;
-	a.appendChild(designContainer);
-	container.appendChild(a);
+	a.appendChild(preview);
+
+	designContainer.appendChild(a);
+	designContainer.appendChild(titleE);
+	designContainer.appendChild(descE);
+	
+	container.appendChild(designContainer);
 }
 
 function getJSON() {
 	var r = new XMLHttpRequest();
-	r.open("GET","/designs/data.json",true);
+	r.open("GET","/data.json",true);
 	r.onreadystatechange = function() {
 		if(this.readyState == 4 && this.status == 200) {
 			var res = JSON.parse(this.response);
@@ -43,8 +44,8 @@ function getJSON() {
 			
 			var b = document.createElement("p");
 			b.className = "content";
-			b.innerHTML = "<a id=\"backButton\" href=\"/miscellaneous\">(Back)</a>";
-			document.getElementById("c1").appendChild(b);
+			b.innerHTML = "<a id=\"backButton\" href=\"/\">(Back)</a>";
+			document.getElementById("container").appendChild(b);
 		}
 	}
 	r.send();

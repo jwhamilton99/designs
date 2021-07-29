@@ -1,5 +1,5 @@
 body {
-	background-color: #1a1a1a;
+	background-color: #323232;
 }
 
 
@@ -9,20 +9,20 @@ a {
 }
 
 .link {
-	color: #ff6666;
+	color: #d55b71;
 }
 
 .link:hover {
-	color:#3baae0;
+	color:#85d3dc;
 	text-decoration: underline;
 }
 
 #backButton {
-	color: #3bffe0;
+	color: #85d3dc;
 }
 
 #backButton:hover {
-	color:#ff6666;
+	color:#d55b71;
 	text-decoration: underline;
 }
 
@@ -55,7 +55,6 @@ a {
 .design {
 	margin:10px;
 	background-color:#e6e6e6;
-	cursor:pointer;
 	padding:10px;
 	border-radius:20px;
 }
@@ -64,6 +63,7 @@ a {
 	width:100%;
 	border-radius:20px;
 	flex-grow:0;
+	cursor:pointer;
 }
 
 .designTitle {
@@ -79,4 +79,16 @@ a {
 	color: #1a1a1a;
 	font-size: 20px;
 	margin:10px;
+}
+
+@media screen and (orientation: portrait) {
+	#designContainer {
+		display:flex;
+		width:100%;
+		flex-direction:column;
+	}
+	
+	.designDescription, .designTitle {
+		font-size:4vw;
+	}
 }
